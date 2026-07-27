@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: skit-project-portal
+    env: docker
+    plan: free
+    envVars:
+      - key: DB_HOST
+        sync: false
+      - key: DB_PORT
+        value: "3306"
+      - key: DB_NAME
+        sync: false
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+      - key: ALLOWED_DOMAIN
+        value: "skit.ac.in"
+      - key: ADMIN_EMAIL
+        value: "B251692@skit.ac.in"
