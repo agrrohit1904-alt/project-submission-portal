@@ -4,7 +4,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 // Google OAuth 2.0 Settings (loaded from Environment Variables or fall back to placeholders)
-define('GOOGLE_CLIENT_ID', getenv('GOOGLE_CLIENT_ID') ?: 'YOUR_GOOGLE_CLIENT_ID');
+define('GOOGLE_CLIENT_ID', getenv('GOOGLE_CLIENT_ID') ?: '140855560457-cofkb6tfia6v84muc2oqk245bjpn5hhc.apps.googleusercontent.com');
 define('GOOGLE_CLIENT_SECRET', getenv('GOOGLE_CLIENT_SECRET') ?: 'YOUR_GOOGLE_CLIENT_SECRET');
 
 // Calculate Redirect URI
